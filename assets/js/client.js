@@ -96,6 +96,9 @@ $(document).ready(function () {
             serviceMin: $("#order_resume .service-min-val"),
             serviceMax: $("#order_resume .service-max-val"),
             serviceAVGTime: $("#order_resume .service-avg-time"),
+            serviceStartTime: $("#order_resume .service-start-time-val"),
+            serviceSpeed: $("#order_resume .service-speed-val"),
+            serviceRefill: $("#order_resume .service-refill-val"),
         };
 
         const selectedService = {};
@@ -394,8 +397,24 @@ $(document).ready(function () {
                 order_resume_elements.serviceId.html(service?.id || "--");
                 order_resume_elements.serviceAVGTime.html(formatAvgTime(service?.avg_time || 0));
                 order_resume_elements.servicePrice.html(service?.price || 0);
+
+                // Parsing custom tags from name or description
+                var searchStr = serviceName + " " + rawDesc;
+                var maxMatch = searchStr.match(/\[\s*Max:\s*([^\]]+)\]/i);
+                var startTimeMatch = searchStr.match(/\[\s*Start Time:\s*([^\]]+)\]/i);
+                var refillMatch = searchStr.match(/\[\s*Refill:\s*([^\]]+)\]/i);
+                var speedMatch = searchStr.match(/\[\s*Speed:\s*([^\]]+)\]/i);
+
+                var maxVal = maxMatch ? maxMatch[1] : (service?.max || 0);
+                var startTimeVal = startTimeMatch ? startTimeMatch[1] : "N/A";
+                var refillVal = refillMatch ? refillMatch[1] : "N/A";
+                var speedVal = speedMatch ? speedMatch[1] : "N/A";
+
                 order_resume_elements.serviceMin.html(service?.min || 0);
-                order_resume_elements.serviceMax.html(service?.max || 0);
+                order_resume_elements.serviceMax.html(maxVal);
+                order_resume_elements.serviceStartTime.html(startTimeVal);
+                order_resume_elements.serviceRefill.html(refillVal);
+                order_resume_elements.serviceSpeed.html(speedVal);
 
                 var logoPath = PATH + `/assets/images/media-icon/${getServiceLogo(serviceName)}`;
                 order_resume_elements.serviceName.html(serviceName);

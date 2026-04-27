@@ -355,7 +355,7 @@ class MY_Model extends CI_Model
         $mail_template = file_get_contents(APPPATH . '/libraries/PHPMailer/template.php');
 
         /*----------  replace variable in email content, subject  ----------*/
-        $email_from = get_option('email_from', '') ? get_option('email_from', '') : "support@smmglory.com";
+        $email_from = get_option('email_from', '') ? get_option('email_from', '') : "no-reply@smmglory.com";
         $email_name = get_option('email_name', '') ? get_option('email_name', '') : get_option('website_title', '');
         $user_firstname = $user_info->first_name;
         $user_lastname = $user_info->last_name;
@@ -476,7 +476,7 @@ class MY_Model extends CI_Model
         }
 
         // Set default from email header
-        $default_from_email = get_option('email_from', '') ? get_option('email_from', '') : "support@smmglory.com";
+        $default_from_email = get_option('email_from', '') ? get_option('email_from', '') : "no-reply@smmglory.com";
         // Get Send email, name
         if (isset($from_email_data['from_email']) && $from_email_data['from_email'] != "") {
             $from_email = $from_email_data['from_email'];

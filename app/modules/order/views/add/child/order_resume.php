@@ -95,6 +95,36 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-md-6 m-t-20">
+            <div class="d-flex align-items-center">
+                <img src="<?php echo BASE; ?>assets/images/new-order/delivery-time.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
+                <div>
+                    <h5 class="mb-1 text-muted">Start Time</h5>
+                    <p class="mb-0 fs-16 service-start-time-val badge badge-default">N/A</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 m-t-20">
+            <div class="d-flex align-items-center">
+                <img src="<?php echo BASE; ?>assets/images/new-order/good-quality-64.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
+                <div>
+                    <h5 class="mb-1 text-muted">Speed</h5>
+                    <p class="mb-0 fs-16 service-speed-val badge badge-default">N/A</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 m-t-20">
+            <div class="d-flex align-items-center">
+                <img src="<?php echo BASE; ?>assets/images/new-order/good-quality-64.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
+                <div>
+                    <h5 class="mb-1 text-muted">Refill</h5>
+                    <p class="mb-0 fs-16 service-refill-val badge badge-default">N/A</p>
+                </div>
+            </div>
+        </div>
     </div>  
         
     <div class="description">
