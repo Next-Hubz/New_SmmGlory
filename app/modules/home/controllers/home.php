@@ -25,10 +25,19 @@ class home extends MX_Controller {
             'limit'    => 5,
         ]);
 
+        $this->load->model('blog/blog_model', 'blog_model');
+        $current_item_lang = get_lang_code_defaut();
+        $latest_posts = $this->blog_model->list_items([
+            'status'           => 1,
+            'limit'            => 3,
+            'lang_code'        => $current_item_lang->code
+        ], ['task' => 'list-items-last-post']);
+
         $data = [
             'lang_current' => get_lang_code_defaut(),
 			'languages'    => $this->model->fetch("*", LANGUAGE_LIST, "status = 1"),
             'popular_services' => $popular_services,
+            'latest_posts' => $latest_posts,
         ];
         $this->template->set_layout('blank_page');
         $this->template->build('../../../themes/'.$home_page_type.'/views/index', $data);

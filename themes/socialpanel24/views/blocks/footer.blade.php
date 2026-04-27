@@ -8,28 +8,39 @@
                 </a>
                 <p>The best SMM Panel in the market. We provide high quality social media services for Resellers and Individuals.</p>
                 <div class="social-links mt-4">
-                    <a href="#"><i class="fab fa-telegram"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#"><i class="fas fa-envelope"></i></a>
-                    <a href="#"><i class="fas fa-comment-dots"></i></a>
+                    <a href="https://t.me/@smmglory24"><i class="fab fa-telegram"></i></a>
+                    <a href="https://wa.me/01838640841"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:support@smmglory.com" ><i class="fas fa-envelope"></i></a>
+                    <a href="<?=cn('auth/login')?>"><i class="fas fa-comment-dots"></i></a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="<?=cn()?>#home">Home</a></li>
+                     <?php if (!session('uid')) { ?>
+                    <li><a href="<?=cn()?>">Home</a></li>
                     <li><a href="<?=cn()?>#features">Features</a></li>
                     <li><a href="<?=cn()?>#services">Services</a></li>
                     <li><a href="<?=cn('auth/signup')?>">Sign Up</a></li>
+                    <?php } else { ?>
+                    <li><a href="<?=cn('new_order')?>">New Order</a></li>
+                    <li><a href="<?=cn('mass_order')?>">Mass Order</a></li>
+                    <li><a href="<?=cn('services')?>">Services</a></li>
+                    <li><a href="<?=cn('tickets')?>">Tickets</a></li>
+                    <?php } ?>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                 <h5>Support</h5>
                 <ul class="list-unstyled footer-links">
+                    <?php if (!session('uid')) { ?>
                     <li><a href="<?=cn()?>#contact">Contact Us</a></li>
+                    <?php } else { ?>
+                    <li><a href="<?=cn('tickets')?>">Contact Us</a></li>
+                    <?php } ?>
                     <li><a href="<?=cn('faq')?>">FAQ</a></li>
                     <li><a href="<?=cn('terms')?>">Terms of Service</a></li>
-                    <li><a href="<?=cn('api')?>">API Docs</a></li>
+                    <li><a href="<?=cn('api/docs')?>">API Docs</a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-6">

@@ -79,6 +79,20 @@ class add_funds extends My_UserController
         $min_payment = get_value($payment->params, 'min');
         $max_payment = get_value($payment->params, 'max');
 
+        // Override min/max if it's crypto_direct and a specific coin is selected
+        if ($payment->type == 'crypto_direct') {
+            $crypto_coin = post('crypto_coin');
+            if ($crypto_coin && strpos($crypto_coin, '|') !== false) {
+                list($to_currency, $network) = explode('|', $crypto_coin);
+                $option = get_value($payment->params, 'option');
+                $prefix = strtolower($to_currency);
+                if ($to_currency == 'USDT') $prefix = 'usdt';
+                
+                $min_payment = get_value($option, $prefix . '_min', $min_payment);
+                $max_payment = get_value($option, $prefix . '_max', $max_payment);
+            }
+        }
+
         if ($amount < $min_payment) {
             _validation('error', lang("minimum_amount_is") . " " . $min_payment);
         }
@@ -123,7 +137,7 @@ class add_funds extends My_UserController
     {
         $data = array(
             "module" => get_class($this),
-        );
+        ); 
         $this->template->set_layout('user');
         $this->template->build('payment_unsuccessfully', $data);
     }

@@ -1,7 +1,7 @@
 <?php
   $class_element = app_config('template')['form']['class_element'];
   $config_status = app_config('config')['status'];
-  $current_config_status = (in_array($controller_name, $config_status)) ? $config_status[$controller_name] : $config_status['default'];
+  $current_config_status = (array_key_exists($controller_name, $config_status)) ? $config_status[$controller_name] : $config_status['default'];
   $form_status = array_intersect_key(app_config('template')['status'], $current_config_status); 
   $form_status = array_combine(array_keys($form_status), array_column($form_status, 'name')); 
 

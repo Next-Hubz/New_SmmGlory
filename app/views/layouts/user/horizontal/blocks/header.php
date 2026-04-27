@@ -134,6 +134,9 @@
           <li class="nav-item">
             <a href="<?=cn($header_elements['services']['route-name']); ?>" class="nav-link <?=(segment(1) == $header_elements['services']['route-name'])? "active" : "" ?>"><i class="<?=$header_elements['services']['icon']; ?>"></i> <?=lang($header_elements['services']['name']); ?></a>
           </li>   
+          <li class="nav-item">
+            <a href="<?=cn($header_elements['child_panel']['route-name']); ?>" class="nav-link <?=(segment(1) == $header_elements['child_panel']['route-name'])? "active" : "" ?>"><i class="<?=$header_elements['child_panel']['icon']; ?>"></i> <?=lang($header_elements['child_panel']['name']); ?></a>
+          </li>   
           
           <?php 
             if (get_option('enable_api_tab')) {

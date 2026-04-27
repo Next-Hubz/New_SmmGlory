@@ -717,6 +717,78 @@ body {
   color: #fff;
 }
 
+/* Blog Cards */
+.sp24-blog-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sp24-blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.sp24-blog-img {
+    overflow: hidden;
+}
+
+.sp24-blog-img img {
+    transition: transform 0.5s ease;
+}
+
+.sp24-blog-card:hover .sp24-blog-img img {
+    transform: scale(1.05);
+}
+
+.sp24-blog-content h5 a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #ffffff !important;
+}
+
+.sp24-blog-content h5 a:hover {
+    color: var(--primary-color) !important;
+}
+
+.sp24-blog-content .text-muted {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.sp24-blog-single-card .details,
+.sp24-blog-single-card .details *,
+.sp24-blog-single-card .details p,
+.sp24-blog-single-card .details h1,
+.sp24-blog-single-card .details h2,
+.sp24-blog-single-card .details h3,
+.sp24-blog-single-card .details h4,
+.sp24-blog-single-card .details h5,
+.sp24-blog-single-card .details h6,
+.sp24-blog-single-card .details span,
+.sp24-blog-single-card .details li,
+.sp24-blog-single-card .details div {
+    color: #ffffff !important;
+}
+
+.blog-single .side-bar .glass-card h3,
+.blog-single .side-bar .glass-card a,
+.blog-single .side-bar .glass-card span:not(.badge-light),
+.blog-single .side-bar .glass-card p {
+    color: #ffffff !important;
+}
+
+.blog-single .side-bar .glass-card a:hover {
+    color: var(--primary-color) !important;
+}
+
+.blog-section {
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+}
+
 @media (max-width: 991px) {
   .theme-socialpanel24-general {
     padding-top: 86px;

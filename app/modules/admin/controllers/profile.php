@@ -11,7 +11,6 @@ class profile extends My_AdminController
         $this->controller_title = ucfirst(str_replace('_', ' ', get_class($this)));
         $this->path_views = "profile";
         $this->params = [];
-        $this->tb_main = STAFFS;
     }
 
     public function index()

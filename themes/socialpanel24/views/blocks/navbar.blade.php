@@ -12,10 +12,10 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo cn(); ?>#home"><?= lang('Home') ?></a>
+                    <a class="nav-link" href="<?php echo cn()?>"><?= lang('Home') ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo cn(); ?>#features">Features</a>
+                    <a class="nav-link" href="<?php echo cn('blog'); ?>">Blog</a>    
                 </li> 
                 <li class="nav-item">
                    <a class="nav-link" href="<?php echo cn(); ?>#services">Services</a>
@@ -29,6 +29,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?=cn('new_order')?>">New Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?=cn('affiliates')?>">Affiliates</a>
                 </li>
                 <li class="nav-item ml-3">
                     <a class="btn btn-signup" href="<?=cn('auth/logout')?>">Logout</a>

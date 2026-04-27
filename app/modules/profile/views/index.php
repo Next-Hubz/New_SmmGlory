@@ -4,9 +4,9 @@
   </h1>
 </div>
 <?php
-  $item_user_timezone = esc($item['last_name'] ?? 'Asia/Ho_Chi_Minh');
-  $item_login_type = esc($item['last_name'] ?? '');
-  $item_more_infor = esc($item['more_information'] ?? []);
+  $item_user_timezone = esc($item['timezone'] ?? 'Asia/Ho_Chi_Minh');
+  $item_login_type = esc($item['login_type'] ?? '');
+  $item_more_infor = $item['more_information'] ?? '';
 ?>
 <div class="row">
   <div class="col-md-6">
@@ -103,12 +103,18 @@
           <div class="form-body">
             <div class="row">
               <?php
+                $website = "";
+                $phone = "";
+                $skype_id = "";
+                $what_asap = "";
+                $address = "";
+                
                 if ($item_more_infor) {
-                  $website    = get_value($item['more_information'], "website");
-                  $phone      = get_value($item['more_information'], "phone");
-                  $skype_id   = get_value($item['more_information'], "skype_id");
-                  $what_asap  = get_value($item['more_information'], "what_asap");
-                  $address    = get_value($item['more_information'], "address");
+                  $website    = get_value($item_more_infor, "website");
+                  $phone      = get_value($item_more_infor, "phone");
+                  $skype_id   = get_value($item_more_infor, "skype_id");
+                  $what_asap  = get_value($item_more_infor, "what_asap");
+                  $address    = get_value($item_more_infor, "address");
                 }
               ?>  
               <div class="col-md-6 col-sm-6 col-xs-6">

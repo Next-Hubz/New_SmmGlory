@@ -10,6 +10,7 @@ $config['controller'] = [
         'subscriptions'    => ['name' => 'Subscriptions',   'icon' => 'fe fe-thumbs-up',     'area_title' => false, 'route-name' => 'subscriptions', 'menu-level' => 1],
         'refill'           => ['name' => 'refill',          'icon' => 'fe fe-refresh-cw',     'area_title' => false, 'route-name' => 'refill', 'menu-level' => 1],
         'services'         => ['name' => 'Services',        'icon' => 'fa fa-list-ul',       'area_title' => false, 'route-name' => 'services', 'menu-level' => 1],
+        'child_panel'      => ['name' => 'Child Panel',     'icon' => 'fe fe-layers',        'area_title' => false, 'route-name' => 'child_panel', 'menu-level' => 1],
         'add_funds'        => ['name' => 'Add_funds',       'icon' => 'fa fa-file-text-o',   'area_title' => false, 'route-name' => 'add_funds', 'menu-level' => 0],
         'transactions'     => ['name' => 'Transaction_logs','icon' => 'fa fa-file-text-o',   'area_title' => false, 'route-name' => 'transactions', 'menu-level' => 0],
         'tickets'          => ['name' => 'Tickets',          'icon' => 'fa fa-comments-o',    'area_title' => false, 'route-name' => 'tickets', 'menu-level' => 1],

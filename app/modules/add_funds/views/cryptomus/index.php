@@ -10,10 +10,7 @@
   <form class="form actionAddFundsForm" action="#" method="POST">
     <div class="row">
       <div class="col-md-12">
-        <div class="for-group text-center">
-          <img src="<?=BASE?>/assets/images/cryptomus.jpg" alt="Cryptomus icon">
-          <p class="p-t-10"><small><?=sprintf(lang("you_can_deposit_funds_with_cryptomus_they_will_be_automaticly_added_into_your_account"), 'Cryptomus')?></small></p>
-        </div>
+
 
         <div class="form-group">
           <label><?=sprintf(lang("amount_usd"), $currency_code)?></label>

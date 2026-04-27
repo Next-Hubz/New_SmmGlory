@@ -293,9 +293,9 @@ class auth extends My_UserController
         if (is_table_exists(AFFILIATE)) {
             $data['ref_key'] = create_random_string_key(6);
         }
-        if (is_table_exists(AFFILIATE) && session('referral_key')) {
+        if (is_table_exists(AFFILIATE) && get_cookie('referral_key')) {
             $this->load->model('affiliates/affiliates_model', 'affiliates');
-            $data['ref_uid'] = $this->affiliates->get_item(['referral_key' => session('referral_key')], ['task' => 'get-referral-uid-on-sign-up']);
+            $data['ref_uid'] = $this->affiliates->get_item(['referral_key' => get_cookie('referral_key')], ['task' => 'get-referral-uid-on-sign-up']);
         }
         $more_information = [];
         if (get_option("enable_signup_skype_field", '')) {
@@ -347,6 +347,13 @@ class auth extends My_UserController
             
             if ($this->db->insert($this->tb_users, $data)) {
                 $uid = $this->db->insert_id();
+                
+                // affiliate signup count update
+                if (is_table_exists(AFFILIATE) && isset($data['ref_uid']) && $data['ref_uid'] > 0) {
+                    $this->db->set('signups', 'signups+1', FALSE);
+                    $this->db->where('uid', $data['ref_uid']);
+                    $this->db->update(AFFILIATE);
+                }
                 if (get_option('is_verification_new_account', 0)) {
                     $check_send_email_issue = $this->model->send_email(get_option('verification_email_subject', ''), get_option('verification_email_content', 0), $uid);
                     if ($check_send_email_issue) {

@@ -475,6 +475,10 @@ if (stripos($_SERVER["REQUEST_URI"], '/add_funds/cryptomus/ipn') !== false) {
     $config['csrf_protection'] = false;
 }
 
+if (stripos($_SERVER["REQUEST_URI"], '/add_funds/crypto_direct/ipn') !== false) {
+    $config['csrf_protection'] = false;
+}
+
 if (stripos($_SERVER["REQUEST_URI"], 'add_funds/paytm/complete') !== false) {
     $config['csrf_protection'] = false;
 }

@@ -36,7 +36,7 @@ class My_UserController extends MX_Controller
     protected $tb_blacklist_email;
     protected $tb_blacklist_link;
 
-    protected $order_log_controller;
+    protected $order_log_controller; 
     protected $general_controller;
 
     public function __construct()
@@ -150,5 +150,5 @@ class My_UserController extends MX_Controller
         ]);
         exit;
     }
-
+    
 }

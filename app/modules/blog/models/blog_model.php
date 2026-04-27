@@ -38,10 +38,12 @@ class blog_model extends MY_Model {
 
         if ($option['task'] == 'list-items-last-post') {
             $this->db->select('bp.id, bp.url_slug, bp.cate_id, bp.image, bp.released');
-            $this->db->select('bpl.name, bpl.content, bpl.meta_keywords, , bpl.meta_description');
+            $this->db->select('bpl.name, bpl.content, bpl.meta_keywords, bpl.meta_description');
             $this->db->from($this->tb_main . " bp");
             $this->db->join($this->tb_blog_posts_lang . " bpl", "bp.id = bpl.post_id", 'left');
-            $this->db->where('bp.id !=', $params['current_id_post']);
+            if (isset($params['current_id_post'])) {
+                $this->db->where('bp.id !=', $params['current_id_post']);
+            }
             $this->db->where('bp.status', 1);
             $this->db->where('bpl.lang_code', $params['lang_code']);
             // Sort By
@@ -55,10 +57,12 @@ class blog_model extends MY_Model {
 
         if ($option['task'] == 'list-items-related-post') {
             $this->db->select('bp.id, bp.url_slug, bp.cate_id, bp.image, bp.released');
-            $this->db->select('bpl.name, bpl.content, bpl.meta_keywords, , bpl.meta_description');
+            $this->db->select('bpl.name, bpl.content, bpl.meta_keywords, bpl.meta_description');
             $this->db->from($this->tb_main . " bp");
             $this->db->join($this->tb_blog_posts_lang . " bpl", "bp.id = bpl.post_id", 'left');
-            $this->db->where('bp.id !=', $params['current_id_post']);
+            if (isset($params['current_id_post'])) {
+                $this->db->where('bp.id !=', $params['current_id_post']);
+            }
             $this->db->where('bp.cate_id', $params['cate_id']);
             $this->db->where('bp.status', 1);
             $this->db->where('bpl.lang_code', $params['lang_code']);

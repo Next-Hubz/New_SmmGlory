@@ -335,6 +335,49 @@
     </div>
 </section>
 
+<!-- Blog Section -->
+<section id="blog" class="blog-section">
+    <div class="container">
+        <div class="section-title" data-aos="fade-up">
+            <h2>Latest News</h2>
+            <p class="text-muted mt-3">Read our latest blog posts, news, and tips.</p>
+        </div>
+        <div class="row">
+            <?php if (!empty($latest_posts)) { ?>
+                <?php foreach ($latest_posts as $post) { 
+                    $post_link = cn('blog/' . $post['url_slug']);
+                    $post_title = truncate_string(strip_tags($post['name']), 69);
+                    $post_content = truncate_string(strip_tag_css($post['content'], 'html'), 150);
+                    $post_date = date('M d, Y', strtotime($post['released']));
+                ?>
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="glass-card sp24-blog-card h-100 d-flex flex-column">
+                            <div class="sp24-blog-img">
+                                <a href="<?=$post_link?>">
+                                    <img src="<?=esc($post['image'])?>" alt="<?=esc($post['name'])?>" class="img-fluid rounded" style="width: 100%; height: 200px; object-fit: cover;">
+                                </a>
+                            </div>
+                            <div class="sp24-blog-content p-3 d-flex flex-column flex-grow-1">
+                                <span class="text-muted small mb-2"><i class="far fa-calendar-alt"></i> <?=$post_date?></span>
+                                 <h5 class="mb-3"><a href="<?=$post_link?>" class="text-white"><?=$post_title?></a></h5>
+                                 <p class="text-muted mb-4 flex-grow-1"><?=$post_content?></p>
+                                <a href="<?=$post_link?>" class="btn btn-signup">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            <?php } else { ?>
+                <div class="col-12 text-center text-muted">
+                    <p>No blog posts available at the moment.</p>
+                </div>
+            <?php } ?>
+        </div>
+        <div class="text-center mt-4" data-aos="fade-up">
+            <a href="<?=cn('blog')?>" class="btn btn-signup">View All Posts</a>
+        </div>
+    </div>
+</section>
+
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
     <div class="container">
@@ -368,11 +411,11 @@
                     </div>
                     <div class="contact-item d-flex align-items-center">
                         <div class="feature-icon">
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i class="fab fa-telegram"></i>
                         </div>
                         <div>
-                            <h6 class="mb-1">Location</h6>
-                            <p class="text-muted mb-0">New York, USA</p>
+                            <h6 class="mb-1">Telegram</h6>
+                           
                         </div>
                     </div>
                 </div>
