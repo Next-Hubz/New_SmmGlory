@@ -2,7 +2,11 @@
 if (!function_exists('get_path_upload')) {
     function get_path_upload($file_name = "")
     {
-        return APPPATH . "../assets/uploads/user" . sha1(session("uid")) . "/" . $file_name;
+        $uid = session("uid");
+        if (empty($uid)) {
+            $uid = "guest";
+        }
+        return APPPATH . "../assets/uploads/user" . sha1((string)$uid) . "/" . $file_name;
     };
 }
 
@@ -22,7 +26,11 @@ if (!function_exists('get_path_file')) {
 if (!function_exists('get_link_file')) {
     function get_link_file($file_name)
     {
-        return BASE . "assets/uploads/user" . sha1(session("uid")) . "/" . $file_name;
+        $uid = session("uid");
+        if (empty($uid)) {
+            $uid = "guest";
+        }
+        return BASE . "assets/uploads/user" . sha1((string)$uid) . "/" . $file_name;
     };
 }
 

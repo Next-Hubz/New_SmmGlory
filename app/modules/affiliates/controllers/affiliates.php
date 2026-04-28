@@ -19,9 +19,15 @@ class affiliates extends My_UserController
             $affiliate = $this->model->get('*', AFFILIATE, ['uid' => $uid]);
         }
 
+        // Fetch user's payout history
+        $this->db->where('uid', $uid);
+        $this->db->order_by('id', 'DESC');
+        $payouts = $this->db->get(AFFILIATE_PAYOUT)->result();
+
         $data = array(
             "controller_name" => $this->controller_name,
             "affiliate"       => $affiliate,
+            "payouts"         => $payouts,
             "referral_link"   => cn('ref/' . $uid)
         );
 

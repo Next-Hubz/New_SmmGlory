@@ -49,6 +49,6 @@ class affiliates_model extends MY_Model
                 $this->db->where('uid', $uid);
                 $this->db->update(AFFILIATE);
                 break;
-        }
+        }  
     }
 }

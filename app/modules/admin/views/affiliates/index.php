@@ -26,6 +26,7 @@
           <tbody>
             <?php if (!empty($payouts)): ?>
               <?php foreach ($payouts as $key => $item): ?>
+                <?php $item = (object)$item; ?>
                 <tr>
                   <td class="text-center"><?= $key + 1 ?></td>
                   <td><?= $item->first_name . ' ' . $item->last_name ?></td>

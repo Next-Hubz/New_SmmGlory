@@ -35,6 +35,25 @@ class affiliates extends My_AdminController
         if ($payout && $payout->status == 0) {
             if ($type == 'approve') {
                 $this->db->update(AFFILIATE_PAYOUT, ['status' => 1, 'updated' => NOW], ['id' => $id]);
+                
+                // Add amount to user's main balance
+                $user = $this->db->get_where(USERS, ['id' => $payout->uid])->row();
+                if ($user) {
+                    $this->db->set('balance', 'balance+' . $payout->amount, FALSE);
+                    $this->db->where('id', $payout->uid);
+                    $this->db->update(USERS);
+                    
+                    // Log the transaction
+                    $this->db->insert(TRANSACTION_LOGS, [
+                        'ids' => ids(),
+                        'uid' => $payout->uid,
+                        'type' => 'Affiliate Payout',
+                        'transaction_id' => 'AFF_PAYOUT_' . $payout->id,
+                        'amount' => $payout->amount,
+                        'status' => 1,
+                        'created' => NOW
+                    ]);
+                }
             } else if ($type == 'reject') {
                 $this->db->update(AFFILIATE_PAYOUT, ['status' => 2, 'updated' => NOW], ['id' => $id]);
                 // refund available earnings

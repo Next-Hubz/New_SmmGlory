@@ -23,11 +23,17 @@ class file_manager extends My_AdminController
     {
 		if (!is_ajax_call()) redirect(cn());
         get_upload_folder();
-        $path = './assets/uploads/user' . sha1(session("uid"));
-        $allowed_types = 'jpg|png';
+        
+        $uid = session("uid");
+        if (empty($uid)) {
+            $uid = "guest";
+        }
+        
+        $path = './assets/uploads/user' . sha1((string)$uid);
+        $allowed_types = 'jpg|png|svg|jpeg|gif';
         $max_size = 5 * 1024;
-        $width = 1024;
-        $height = 768;
+        $width = 2048;
+        $height = 2048;
         // config
         $config = array(
             'upload_path'   => $path,
@@ -100,8 +106,14 @@ class file_manager extends My_AdminController
             $link = BASE . "assets/uploads/" . $upload_folder . "/";
         } else {
             get_upload_folder();
-            $path = './assets/uploads/user' . sha1(session("uid")) . '/';
-            $link = BASE . 'assets/uploads/user' . sha1(session("uid")) . '/';
+            
+            $uid = session("uid");
+            if (empty($uid)) {
+                $uid = "guest";
+            }
+            
+            $path = './assets/uploads/user' . sha1((string)$uid) . '/';
+            $link = BASE . 'assets/uploads/user' . sha1((string)$uid) . '/';
         }
         $opts = array(
             'roots' => array(

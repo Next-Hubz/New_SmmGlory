@@ -98,6 +98,53 @@ $rate = get_option('affiliate_commission_rate', 10);
   </div>
 </div>
 
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Payout History</h3>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered table-vcenter card-table">
+          <thead>
+            <tr>
+              <th class="text-center w-1">No.</th>
+              <th>Amount</th>
+              <th>Status</th>
+              <th>Date Requested</th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php if (!empty($payouts)): ?>
+              <?php foreach ($payouts as $key => $item): ?>
+                <?php $item = (object)$item; ?>
+                <tr>
+                  <td class="text-center"><?= $key + 1 ?></td>
+                  <td><?= get_option("currency_symbol", "$") . number_format($item->amount, 2) ?></td>
+                  <td>
+                    <?php if ($item->status == 0): ?>
+                      <span class="badge badge-warning">Pending</span>
+                    <?php elseif ($item->status == 1): ?>
+                      <span class="badge badge-success">Approved</span>
+                    <?php else: ?>
+                      <span class="badge badge-danger">Rejected</span>
+                    <?php endif; ?>
+                  </td>
+                  <td><?= $item->created ?></td>
+                </tr>
+              <?php endforeach; ?>
+            <?php else: ?>
+              <tr>
+                <td colspan="4" class="text-center">No payouts requested yet.</td>
+              </tr>
+            <?php endif; ?>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 function copyToClipboard(elementId) {
   var copyText = document.getElementById(elementId);

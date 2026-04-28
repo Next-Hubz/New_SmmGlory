@@ -1115,7 +1115,11 @@ if (!function_exists('export_csv')) {
 if (!function_exists("get_upload_folder")) {
     function get_upload_folder()
     {
-        $path = APPPATH . "../assets/uploads/user" . sha1(session("uid")) . "/";
+        $uid = session("uid");
+        if (empty($uid)) {
+            $uid = "guest"; // or some default fallback if uid is not set
+        }
+        $path = APPPATH . "../assets/uploads/user" . sha1((string)$uid) . "/";
         if (!file_exists($path)) {
             $uold = umask(0);
             mkdir($path, 0777);

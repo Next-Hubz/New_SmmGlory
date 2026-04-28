@@ -463,7 +463,7 @@ function Admin() {
         var url = PATH + "upload_files";
         $(document).on('click', '.settings_fileupload', function () {
             var element = $(this);
-            var _closest_div = element.closest('div');
+            var _closest_div = element.closest('.input-group');
             $('.settings .settings_fileupload').fileupload({
                 url: url,
                 formData: { token: token },
@@ -472,8 +472,13 @@ function Admin() {
                     if (data.result.status == "success") {
                         var _img_link = data.result.link;
                         _closest_div.children('input').val(_img_link);
+                    } else {
+                        alert(data.result.message || 'Upload failed');
                     }
                 },
+                error: function (e, data) {
+                    alert('Upload failed');
+                }
             });
         });
     }

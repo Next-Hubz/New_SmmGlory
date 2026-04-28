@@ -641,3 +641,54 @@ ERROR - 2026-04-27 10:32:30 --> Could not find the language line "child panel"
 ERROR - 2026-04-27 10:32:30 --> Could not find the language line "affiliates"
 ERROR - 2026-04-27 10:33:19 --> Could not find the language line "child panel"
 ERROR - 2026-04-27 10:33:19 --> Could not find the language line "affiliates"
+ERROR - 2026-04-27 10:51:03 --> Could not find the language line "child panel"
+ERROR - 2026-04-27 10:51:03 --> Could not find the language line "affiliates"
+ERROR - 2026-04-27 10:51:20 --> Module controller failed to run: blocks/search_box
+ERROR - 2026-04-27 10:51:20 --> Could not find the language line "child panel"
+ERROR - 2026-04-27 10:51:20 --> Could not find the language line "affiliates"
+ERROR - 2026-04-27 10:51:20 --> Module controller failed to run: blocks/search_box
+ERROR - 2026-04-27 10:51:22 --> Module controller failed to run: blocks/search_box
+ERROR - 2026-04-27 10:51:22 --> Could not find the language line "child panel"
+ERROR - 2026-04-27 10:51:22 --> Could not find the language line "affiliates"
+ERROR - 2026-04-27 10:51:22 --> Module controller failed to run: blocks/search_box
+ERROR - 2026-04-27 10:51:36 --> Could not find the language line "child panel"
+ERROR - 2026-04-27 10:51:36 --> Could not find the language line "affiliates"
+ERROR - 2026-04-27 10:56:47 --> Could not find the language line "choose_your_preferred_social_network"
+ERROR - 2026-04-27 10:56:47 --> Could not find the language line "not_enough_data"
+ERROR - 2026-04-27 10:56:47 --> Could not find the language line "child panel"
+ERROR - 2026-04-27 10:56:47 --> Could not find the language line "affiliates"
+ERROR - 2026-04-27 10:57:33 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\common_helper.php 1118
+ERROR - 2026-04-27 10:57:33 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\file_manager.php 26
+ERROR - 2026-04-27 10:57:33 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\file_manager_helper.php 25
+ERROR - 2026-04-27 10:57:33 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 10:57:43 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\common_helper.php 1118
+ERROR - 2026-04-27 10:57:43 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\file_manager.php 26
+ERROR - 2026-04-27 10:57:43 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\file_manager_helper.php 25
+ERROR - 2026-04-27 10:57:43 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:00:54 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\common_helper.php 1118
+ERROR - 2026-04-27 11:00:54 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\file_manager.php 26
+ERROR - 2026-04-27 11:00:54 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\file_manager_helper.php 25
+ERROR - 2026-04-27 11:00:54 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:42:06 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\common_helper.php 1118
+ERROR - 2026-04-27 11:42:06 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\file_manager.php 26
+ERROR - 2026-04-27 11:42:06 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\file_manager_helper.php 25
+ERROR - 2026-04-27 11:42:06 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:42:16 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\common_helper.php 1118
+ERROR - 2026-04-27 11:42:16 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\file_manager.php 26
+ERROR - 2026-04-27 11:42:16 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\file_manager_helper.php 25
+ERROR - 2026-04-27 11:42:16 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:42:35 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\common_helper.php 1118
+ERROR - 2026-04-27 11:42:35 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\file_manager.php 26
+ERROR - 2026-04-27 11:42:35 --> Severity: Deprecated Notice --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated C:\xampp\htdocs\smartpanel_Design_modified\app\helpers\file_manager_helper.php 25
+ERROR - 2026-04-27 11:42:35 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:44:03 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:44:28 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:44:32 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:45:18 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:45:23 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:45:26 --> Could not find the language line "upload_media_successfully"
+ERROR - 2026-04-27 11:46:20 --> Could not find the language line "sign_with_google"
+ERROR - 2026-04-27 11:46:32 --> Could not find the language line "choose_your_preferred_social_network"
+ERROR - 2026-04-27 11:46:32 --> Could not find the language line "not_enough_data"
+ERROR - 2026-04-27 11:46:32 --> Could not find the language line "child panel"
+ERROR - 2026-04-27 11:46:32 --> Could not find the language line "affiliates"
