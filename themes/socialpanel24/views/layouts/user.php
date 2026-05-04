@@ -32,7 +32,7 @@
     <link href="<?php echo BASE; ?>assets/css/footer.css" rel="stylesheet">
     <link href="<?php echo BASE; ?>assets/css/general_page.css" rel="stylesheet">
     <link href="<?php echo BASE; ?>themes/socialpanel24/assets/css/fontawesome-all.css" rel="stylesheet">
-    <link href="<?php echo BASE; ?>themes/socialpanel24/assets/css/socialpanel24.css" rel="stylesheet">
+    <link href="<?php echo BASE; ?>themes/socialpanel24/assets/css/socialpanel24.css?v=<?php echo time(); ?>" rel="stylesheet">
       
     <!-- Plugins -->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE; ?>assets/plugins/jquery-toast/css/jquery.toast.css">

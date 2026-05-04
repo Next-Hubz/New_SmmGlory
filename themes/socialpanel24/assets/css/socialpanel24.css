@@ -489,59 +489,109 @@ body {
   font-size: 0.86rem;
 }
 
-.theme-socialpanel24-general .sp24-faq-toolbar {
+/* FAQ Category Cards (Replaces old toolbar) */
+.theme-socialpanel24-general .sp24-faq-category-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 14px;
-  padding: 18px 22px;
-  margin-bottom: 22px;
-}
-
-.theme-socialpanel24-general .sp24-faq-toolbar__label {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: #fff;
-  font-weight: 700;
-}
-
-.theme-socialpanel24-general .sp24-faq-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.theme-socialpanel24-general .sp24-faq-filter {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 11px 15px;
+  padding: 16px;
+  border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.05);
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
-.theme-socialpanel24-general .sp24-faq-filter small {
-  min-width: 26px;
-  padding: 2px 7px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
-  font-size: 0.72rem;
+.theme-socialpanel24-general--dashboard .sp24-faq-category-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.theme-socialpanel24-general--dashboard .sp24-faq-category-card:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card.is-active {
+  border-color: #2e7d32 !important;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card__icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-right: 16px;
+  transition: all 0.3s ease;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card.is-active .sp24-faq-category-card__icon {
+  background: #2e7d32 !important;
+  color: #ffffff !important;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card__content h4 {
+  font-size: 1rem;
   font-weight: 700;
-  text-align: center;
+  margin-bottom: 4px;
+  color: #ffffff;
 }
 
-.theme-socialpanel24-general .sp24-faq-filter.is-active,
-.theme-socialpanel24-general .sp24-faq-filter:hover {
-  background: linear-gradient(135deg, rgba(22, 184, 119, 0.22), rgba(23, 192, 160, 0.22));
-  border-color: rgba(79, 227, 173, 0.34);
-  color: #fff;
+.theme-socialpanel24-general--dashboard .sp24-faq-category-card__content h4 {
+  color: #1a1a1a;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card__content p {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.theme-socialpanel24-general--dashboard .sp24-faq-category-card__content p {
+  color: #666666;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card__arrow {
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.theme-socialpanel24-general--dashboard .sp24-faq-category-card__arrow {
+  color: #999999;
+}
+
+.theme-socialpanel24-general .sp24-faq-category-card.is-active .sp24-faq-category-card__arrow {
+  color: #2e7d32;
 }
 
 .theme-socialpanel24-general .sp24-faq-section {

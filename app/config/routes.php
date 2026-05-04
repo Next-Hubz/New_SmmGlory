@@ -67,7 +67,7 @@ $route['cookie-policy']           = 'client/cookie_policy';
 $route['news-annoucement']        = 'client/news_annoucement';
 $route['set-language']            = 'client/set_language';
 $route['back-to-admin']           = 'client/back_to_admin';
-$route['ref/(:any)']              = 'client/referral/$1';
+$route['ref/(:any)']              = 'home/index/$1';
 
 // Client Blog
 $route['blog']                                  = 'blog/index';

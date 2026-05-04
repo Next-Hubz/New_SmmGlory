@@ -39,6 +39,7 @@
   }
 </style>
 
+<div class="theme-socialpanel24-general">
 <div class="row justify-content-center">
   <div class="col-md-8">
     <div class="page-title m-b-30">
@@ -51,5 +52,6 @@
       <?php echo get_option("cookies_policy_page", ""); ?>
     </div>
   </div>  
+</div>
 </div>
 

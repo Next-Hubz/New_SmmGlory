@@ -2,18 +2,18 @@
   $payment_option = get_value($payment_params, 'option');
   
   // Defaults
-  $btc_min = get_value($payment_option, 'btc_min', '5');
-  $btc_max = get_value($payment_option, 'btc_max', '1000');
-  $eth_min = get_value($payment_option, 'eth_min', '5');
-  $eth_max = get_value($payment_option, 'eth_max', '1000');
-  $ltc_min = get_value($payment_option, 'ltc_min', '5');
-  $ltc_max = get_value($payment_option, 'ltc_max', '1000');
-  $usdt_min = get_value($payment_option, 'usdt_min', '5');
-  $usdt_max = get_value($payment_option, 'usdt_max', '1000');
-  $bnb_min = get_value($payment_option, 'bnb_min', '5');
-  $bnb_max = get_value($payment_option, 'bnb_max', '1000');
-  $sol_min = get_value($payment_option, 'sol_min', '5');
-  $sol_max = get_value($payment_option, 'sol_max', '1000');
+  $btc_min = get_value($payment_option, 'btc_min', false, '5');
+  $btc_max = get_value($payment_option, 'btc_max', false, '1000');
+  $eth_min = get_value($payment_option, 'eth_min', false, '5');
+  $eth_max = get_value($payment_option, 'eth_max', false, '1000');
+  $ltc_min = get_value($payment_option, 'ltc_min', false, '5');
+  $ltc_max = get_value($payment_option, 'ltc_max', false, '1000');
+  $usdt_min = get_value($payment_option, 'usdt_min', false, '5');
+  $usdt_max = get_value($payment_option, 'usdt_max', false, '1000');
+  $bnb_min = get_value($payment_option, 'bnb_min', false, '5');
+  $bnb_max = get_value($payment_option, 'bnb_max', false, '1000');
+  $sol_min = get_value($payment_option, 'sol_min', false, '5');
+  $sol_max = get_value($payment_option, 'sol_max', false, '1000');
 ?>
 <div class="form-group col-md-12">
   <label class="form-label">Cryptomus Merchant ID</label>

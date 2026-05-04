@@ -3,10 +3,10 @@
     .order_resume {
         max-width: 592px;
         width: 100%;
-        border: 1px solid #eaecf0;
+        border: 1px solid #1c1d20ff;
         border-radius: 10px;
         padding: 25px;
-        background: #fafaff;
+        background: #121213ff;
     }
     .order_resume .service-title {
         margin-left: -10px;
@@ -25,7 +25,7 @@
         white-space: pre-line;
         word-break: break-word;
         line-height: 21px;
-        border: 1px solid #eaecf0;
+        border: 1px solid #1a1a1bff;
         border-radius: 10px;
         padding: 10px;
         min-height: 300px;
@@ -58,7 +58,7 @@
             <div class="d-flex align-items-center">
                 <img src="<?php echo BASE; ?>assets/images/new-order/good-quality-64.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
                 <div>
-                    <h5 class="mb-1 text-muted"><?= lang('rate_per_1000') ?></h5>
+                    <h5 class="mb-1 "><?= lang('rate_per_1000') ?></h5>
                     <p class="mb-0 fs-18 text-info">$<span class="service-price">3.8836</span></p>
                 </div>
             </div>
@@ -80,7 +80,7 @@
             <div class="d-flex align-items-center">
                 <img src="<?php echo BASE; ?>assets/images/new-order/min.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
                 <div>
-                    <h5 class="mb-1 text-muted"><?= lang('min') ?></h5>
+                    <h5 class="mb-1 "><?= lang('min') ?></h5>
                     <p class="mb-0 fs-16 service-min-val badge badge-default">1000</p>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="d-flex align-items-center">
                 <img src="<?php echo BASE; ?>assets/images/new-order/max.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
                 <div>
-                    <h5 class="mb-1 text-muted"><?= lang('max') ?></h5>
+                    <h5 class="mb-1 "><?= lang('max') ?></h5>
                     <p class="mb-0 fs-16 service-max-val badge badge-default">1000000</p>
                 </div>
             </div>
@@ -100,7 +100,7 @@
             <div class="d-flex align-items-center">
                 <img src="<?php echo BASE; ?>assets/images/new-order/delivery-time.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
                 <div>
-                    <h5 class="mb-1 text-muted">Start Time</h5>
+                    <h5 class="mb-1 ">Start Time</h5>
                     <p class="mb-0 fs-16 service-start-time-val badge badge-default">N/A</p>
                 </div>
             </div>
@@ -110,7 +110,7 @@
             <div class="d-flex align-items-center">
                 <img src="<?php echo BASE; ?>assets/images/new-order/good-quality-64.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
                 <div>
-                    <h5 class="mb-1 text-muted">Speed</h5>
+                    <h5 class="mb-1 ">Speed</h5>
                     <p class="mb-0 fs-16 service-speed-val badge badge-default">N/A</p>
                 </div>
             </div>
@@ -120,7 +120,7 @@
             <div class="d-flex align-items-center">
                 <img src="<?php echo BASE; ?>assets/images/new-order/good-quality-64.png" class="rounded-circle mr-3" alt="Icon" width="40" height="40">
                 <div>
-                    <h5 class="mb-1 text-muted">Refill</h5>
+                    <h5 class="mb-1 ">Refill</h5>
                     <p class="mb-0 fs-16 service-refill-val badge badge-default">N/A</p>
                 </div>
             </div>
@@ -128,7 +128,7 @@
     </div>  
         
     <div class="description">
-        <h5 class="mb-1 text-muted"><?=lang("Description")?></h5>
+        <h5 class="mb-1 "><?=lang("Description")?></h5>
         <div class="service-details">
             ✅Worldwide Likes
             <br>✅Start time - Instant

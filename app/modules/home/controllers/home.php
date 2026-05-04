@@ -12,8 +12,22 @@ class home extends MX_Controller {
         }
     }
 
-    public function index()
+    public function index($ref = null)
     {
+        if (isset($_GET['ref']) && empty($ref)) {
+            $ref = $_GET['ref'];
+        }
+        
+        if ($ref) {
+            $ref = str_replace(',', '', $ref); // clean up trailing commas
+            if (!get_cookie('referral_key') && is_table_exists(AFFILIATE)) {
+                $option = ['task'    => 'add-item-when-user-visit'];
+                $params = ['ref_key' => $ref];
+                $this->load->model('affiliates/affiliates_model', 'affiliates');
+                $this->affiliates->save_item($params, $option);
+            }
+        }
+
         $home_page_type =  get_theme();
         if (get_option("enable_disable_homepage") && !in_array($home_page_type, ['monoka'])) {
             redirect(cn("auth/login"));

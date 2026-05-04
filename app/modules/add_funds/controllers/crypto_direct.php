@@ -77,8 +77,8 @@ class crypto_direct extends My_UserController
             $prefix = strtolower($to_currency);
             if ($to_currency == 'USDT') $prefix = 'usdt';
             
-            $coin_min = get_value($option, $prefix . '_min', get_value($params, 'min'));
-            $coin_max = get_value($option, $prefix . '_max', get_value($params, 'max'));
+            $coin_min = get_value($option, $prefix . '_min', false, get_value($params, 'min'));
+            $coin_max = get_value($option, $prefix . '_max', false, get_value($params, 'max'));
 
             if ($amount < $coin_min) {
                 _validation('error', lang("minimum_amount_is") . " " . $coin_min);

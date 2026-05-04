@@ -7,12 +7,12 @@
 
   // Load individual limits into JS variables for dynamic updates
   $crypto_limits = [
-      'BTC|BTC' => ['min' => get_value($option, 'btc_min', $min_amount), 'max' => get_value($option, 'btc_max', $max_amount)],
-      'ETH|ETH' => ['min' => get_value($option, 'eth_min', $min_amount), 'max' => get_value($option, 'eth_max', $max_amount)],
-      'LTC|LTC' => ['min' => get_value($option, 'ltc_min', $min_amount), 'max' => get_value($option, 'ltc_max', $max_amount)],
-      'USDT|TRC20' => ['min' => get_value($option, 'usdt_min', $min_amount), 'max' => get_value($option, 'usdt_max', $max_amount)],
-      'BNB|BSC' => ['min' => get_value($option, 'bnb_min', $min_amount), 'max' => get_value($option, 'bnb_max', $max_amount)],
-      'SOL|SOL' => ['min' => get_value($option, 'sol_min', $min_amount), 'max' => get_value($option, 'sol_max', $max_amount)],
+      'BTC|BTC' => ['min' => get_value($option, 'btc_min', false, $min_amount), 'max' => get_value($option, 'btc_max', false, $max_amount)],
+      'ETH|ETH' => ['min' => get_value($option, 'eth_min', false, $min_amount), 'max' => get_value($option, 'eth_max', false, $max_amount)],
+      'LTC|LTC' => ['min' => get_value($option, 'ltc_min', false, $min_amount), 'max' => get_value($option, 'ltc_max', false, $max_amount)],
+      'USDT|TRC20' => ['min' => get_value($option, 'usdt_min', false, $min_amount), 'max' => get_value($option, 'usdt_max', false, $max_amount)],
+      'BNB|BSC' => ['min' => get_value($option, 'bnb_min', false, $min_amount), 'max' => get_value($option, 'bnb_max', false, $max_amount)],
+      'SOL|SOL' => ['min' => get_value($option, 'sol_min', false, $min_amount), 'max' => get_value($option, 'sol_max', false, $max_amount)],
   ];
 ?>
 

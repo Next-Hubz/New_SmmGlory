@@ -664,6 +664,7 @@ class Template
 	{
 		if ($this->_ci->load->get_var('template_views'))
 		{
+            file_put_contents('debug.txt', "cached template_views: " . $this->_ci->load->get_var('template_views') . "\n", FILE_APPEND);
 			return $this->_ci->load->get_var('template_views');
 		}
 
@@ -674,7 +675,13 @@ class Template
 		if ( ! empty($this->_theme))
 		{
 			$view_folder = $this->_theme_path.'views/';
-		}
+		} else {
+            ob_start();
+            debug_print_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
+            $trace = ob_get_clean();
+            file_put_contents('debug.txt', "theme empty! backtrace: \n$trace\n", FILE_APPEND);
+        }
+        file_put_contents('debug.txt', "theme: {$this->_theme}, theme_path: {$this->_theme_path}\n", FILE_APPEND);
 
 		// Would they like the mobile version?
 		if ($this->_is_mobile === TRUE AND is_dir($view_folder.'mobile/'))
@@ -746,6 +753,9 @@ class Template
 		// Sevear hackery to load views from custom places AND maintain compatibility with Modular Extensions
 		if ($override_view_path !== NULL)
 		{
+            if ($view === 'layouts/user') {
+                file_put_contents('debug.txt', "override_view_path: $override_view_path\n", FILE_APPEND);
+            }
 			if ($this->_parser_enabled === TRUE AND $parse_view === TRUE)
 			{
 				// Load content and pass through the parser

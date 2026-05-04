@@ -1,0 +1,1638 @@
+My_UserController template not set
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\statistics\controllers\statistics.php(23): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): statistics->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\services\controllers\services.php(58): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): services->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_UserController.php(116): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_UserController.php(99): My_UserController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_UserController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\child_panel\controllers\child_panel.php(19): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): child_panel->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\api\controllers\api.php(76): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): api->docs()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\api\controllers\api.php(76): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): api->docs()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\child_panel\controllers\child_panel.php(19): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): child_panel->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_UserController.php(116): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_UserController.php(99): My_UserController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_UserController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\services\controllers\services.php(89): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): services->service_details()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\statistics\controllers\statistics.php(23): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): statistics->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\services\controllers\services.php(89): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): services->service_details()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\services\controllers\services.php(58): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): services->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\services\controllers\services.php(58): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): services->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\services\controllers\services.php(89): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): services->service_details()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_UserController.php(118): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_UserController.php(99): My_UserController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_UserController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\statistics.php(24): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): statistics->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\add_funds\controllers\add_funds.php(49): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): add_funds->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\statistics\controllers\statistics.php(23): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): statistics->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme: socialpanel24, theme_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\../themes/socialpanel24/views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(167): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->signup()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(480): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->activation()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(91): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\My_AdminController.php(68): My_AdminController->handle_normal_request()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): My_AdminController->index()
+#4 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\settings.php(34): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): settings->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\settings.php(34): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): settings->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\settings.php(34): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): settings->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(54): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\auth\controllers\auth.php(167): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->signup()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\statistics\controllers\statistics.php(23): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): statistics->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\affiliates\controllers\affiliates.php(35): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): affiliates->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\admin\controllers\auth.php(28): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): auth->login()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\order\controllers\order.php(67): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): order->new_order()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+override_view_path: C:\xampp\htdocs\smartpanel_Design_modified\app\views/
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\home\controllers\home.php(57): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): home->index()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 
+theme empty! backtrace: 
+#0 C:\xampp\htdocs\smartpanel_Design_modified\app\libraries\Template.php(273): Template->_find_view_folder()
+#1 C:\xampp\htdocs\smartpanel_Design_modified\app\modules\client\controllers\client.php(40): Template->build()
+#2 C:\xampp\htdocs\smartpanel_Design_modified\app\core\system\core\CodeIgniter.php(483): client->faq()
+#3 C:\xampp\htdocs\smartpanel_Design_modified\index.php(329): require_once('C:\\xampp\\htdocs...')
+
+theme: , theme_path: 

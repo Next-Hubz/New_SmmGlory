@@ -191,15 +191,7 @@ class client extends My_UserController {
         $this->template->build("cookies_policy/index", $data);
     }
 
-    public function referral($ref_key = ""){
-        if (!session('referral_key') && $ref_key && is_table_exists(AFFILIATE)) {
-            $option = ['task'    => 'add-item-when-user-visit'];
-            $params = ['ref_key' => $ref_key];
-            $this->load->model('affiliates/affiliates_model', 'affiliates');
-            $this->affiliates->save_item($params, $option);
-        }
-        redirect(cn());
-    }
+
 
     public function news_annoucement()
     {

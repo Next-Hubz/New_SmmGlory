@@ -88,8 +88,8 @@ class add_funds extends My_UserController
                 $prefix = strtolower($to_currency);
                 if ($to_currency == 'USDT') $prefix = 'usdt';
                 
-                $min_payment = get_value($option, $prefix . '_min', $min_payment);
-                $max_payment = get_value($option, $prefix . '_max', $max_payment);
+                $min_payment = get_value($option, $prefix . '_min', false, $min_payment);
+                $max_payment = get_value($option, $prefix . '_max', false, $max_payment);
             }
         }
 

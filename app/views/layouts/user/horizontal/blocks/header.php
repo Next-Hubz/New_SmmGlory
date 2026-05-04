@@ -59,6 +59,7 @@
           </a>
         </div>
         <?php }?>
+        <?php if(current_logged_user()): ?>
         <div class="dropdown">
           <a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
             <span class="avatar" style="background-image: url(<?=BASE?>assets/images/user-avatar.png)"></span>
@@ -81,14 +82,18 @@
             </a>
           </div>
         </div>
+        <?php endif; ?>
       </div>
+      <?php if(current_logged_user()): ?>
       <a href="#" class="header-toggler text-white d-lg-none ml-3 ml-lg-0 my-auto" data-toggle="collapse" data-target="#headerMenuCollapse">
         <span class="header-toggler-icon"></span>
       </a>
+      <?php endif; ?>
     </div>
   </div>
 </div>
 
+<?php if(current_logged_user()): ?>
 <?php
   $header_elements = app_config('controller')['user'];
 ?>
@@ -134,17 +139,7 @@
           <li class="nav-item">
             <a href="<?=cn($header_elements['services']['route-name']); ?>" class="nav-link <?=(segment(1) == $header_elements['services']['route-name'])? "active" : "" ?>"><i class="<?=$header_elements['services']['icon']; ?>"></i> <?=lang($header_elements['services']['name']); ?></a>
           </li>   
-          <li class="nav-item">
-            <a href="<?=cn($header_elements['child_panel']['route-name']); ?>" class="nav-link <?=(segment(1) == $header_elements['child_panel']['route-name'])? "active" : "" ?>"><i class="<?=$header_elements['child_panel']['icon']; ?>"></i> <?=lang($header_elements['child_panel']['name']); ?></a>
-          </li>   
           
-          <?php 
-            if (get_option('enable_api_tab')) {
-              ?>      
-            <li class="nav-item">
-              <a href="<?=cn($header_elements['api']['route-name']); ?>" class="nav-link <?=(segment(2) == 'docs')?"active":""?>"><i class="<?=$header_elements['api']['icon']; ?>"></i> <?=lang($header_elements['api']['name']); ?></a>
-            </li>   
-          <?php }?>
           <li class="nav-item">
             <a href="javascript:void(0)" class="nav-link <?=(in_array(segment(1), ['tickets', 'faq'])) ? "active":""?>" data-toggle="dropdown"><i class="fa fa-comments-o"></i>
               <?=lang('Support')?> <span class="badge badge-info"><?=$total_unread_tickets?></span>
@@ -174,14 +169,23 @@
               }
             }
           ?>
+            <li class="nav-item">
+              <a href="<?=cn($header_elements['child_panel']['route-name']); ?>" class="nav-link <?=(segment(1) == $header_elements['child_panel']['route-name'])? "active" : "" ?>"><i class="<?=$header_elements['child_panel']['icon']; ?>"></i> <?=lang($header_elements['child_panel']['name']); ?></a>
+            </li>   
+            
           <?php if ($enable_affiliate): ?>
             <li class="nav-item">
               <a href="<?=cn($header_elements['affiliates']['route-name']); ?>" class="nav-link <?=(segment(2) == $header_elements['affiliates']['route-name'])?"active":""?>"><i class="<?=$header_elements['affiliates']['icon']; ?>"></i> <?=lang($header_elements['affiliates']['name']); ?></a>
             </li>   
           <?php endif; ?>
           
+
+          <li class="nav-item">
+            <a href="<?=cn($header_elements['api']['route-name']); ?>" class="nav-link <?=(segment(2) == 'docs')?"active":""?>"><i class="<?=$header_elements['api']['icon']; ?>"></i> <?=lang($header_elements['api']['name']); ?></a>
+          </li> 
         </ul>
       </div>
     </div>
   </div>
 </div>
+<?php endif; ?>

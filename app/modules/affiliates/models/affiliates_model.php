@@ -14,7 +14,11 @@ class affiliates_model extends MY_Model
             case 'get-referral-uid-on-sign-up':
                 // The params['referral_key'] is the uid in our simplified system
                 $ref_key = $params['referral_key'];
-                return is_numeric($ref_key) ? $ref_key : 0;
+                if (is_numeric($ref_key)) {
+                    $user_exists = $this->db->get_where('general_users', ['id' => $ref_key])->row();
+                    return $user_exists ? $ref_key : 0;
+                }
+                return 0;
         }
         return false;
     }
@@ -25,14 +29,18 @@ class affiliates_model extends MY_Model
             case 'add-item-when-user-visit':
                 $ref_key = $params['ref_key'];
                 if (is_numeric($ref_key)) {
-                    $this->db->set('visitors', 'visitors+1', FALSE);
-                    $this->db->where('uid', $ref_key);
-                    $this->db->update(AFFILIATE);
-                    
-                    if ($this->db->affected_rows() == 0) {
-                        $this->db->insert(AFFILIATE, ['uid' => $ref_key, 'visitors' => 1]);
+                    // Check if the user exists
+                    $user_exists = $this->db->get_where('general_users', ['id' => $ref_key])->row();
+                    if ($user_exists) {
+                        $this->db->set('visitors', 'visitors+1', FALSE);
+                        $this->db->where('uid', $ref_key);
+                        $this->db->update(AFFILIATE);
+                        
+                        if ($this->db->affected_rows() == 0) {
+                            $this->db->insert(AFFILIATE, ['uid' => $ref_key, 'visitors' => 1]);
+                        }
+                        set_cookie("referral_key", $ref_key, 2592000); // 30 days
                     }
-                    set_cookie("referral_key", $ref_key, 2592000); // 30 days
                 }
                 break;
 

@@ -406,7 +406,7 @@
                         </div>
                         <div>
                             <h6 class="mb-1">WhatsApp</h6>
-                            <p class="text-muted mb-0">+1 234 567 8900</p>
+                            <p class="text-muted mb-0">01838640841</p>
                         </div>
                     </div>
                     <div class="contact-item d-flex align-items-center">
@@ -415,7 +415,7 @@
                         </div>
                         <div>
                             <h6 class="mb-1">Telegram</h6>
-                           
+                            <p class="text-muted mb-0">@smmglory24</p>
                         </div>
                     </div>
                 </div>

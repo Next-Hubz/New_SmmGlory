@@ -73,6 +73,12 @@
   }
 ?>
 
+<link href="<?php echo BASE; ?>themes/socialpanel24/assets/css/socialpanel24.css?v=<?php echo time(); ?>" rel="stylesheet">
+<?php
+$is_logged_in = session('uid') ? true : false;
+$dashboard_class = $is_logged_in ? 'theme-socialpanel24-general--dashboard' : '';
+?>
+<div class="theme-socialpanel24-general <?php echo $dashboard_class; ?>">
 <section class="sp24-faq-hero">
   <div class="sp24-faq-hero__content">
     <span class="sp24-faq-badge">Help Center</span>
@@ -116,10 +122,17 @@
         <i class="fa fa-envelope" aria-hidden="true"></i>
         <span>Email Support</span>
       </a>
-      <a href="<?=cn('service-details')?>" class="btn sp24-faq-action sp24-faq-action--ghost">
+      <?php if (session('uid')) { ?>
+    <a href="<?= cn('services') ?>" class="btn sp24-faq-action sp24-faq-action--ghost">
         <i class="fa fa-th-large" aria-hidden="true"></i>
         <span>View Services</span>
-      </a>
+    </a>
+<?php } else { ?>
+    <a href="<?= cn('service-details') ?>" class="btn sp24-faq-action sp24-faq-action--ghost">
+        <i class="fa fa-th-large" aria-hidden="true"></i>
+        <span>View Services</span>
+    </a>
+<?php } ?>
     </div>
   </div>
 
@@ -157,25 +170,61 @@
   </div>
 </section>
 
-<section class="sp24-faq-toolbar">
-  <div class="sp24-faq-toolbar__label">
-    <i class="fa fa-sliders" aria-hidden="true"></i>
-    <span>Browse Categories</span>
-  </div>
-
-  <div class="sp24-faq-filters" id="faqCategoryFilters">
-    <?php foreach ($visible_categories as $category_key => $category_label) { ?>
-      <button
-        type="button"
-        class="sp24-faq-filter<?=$category_key === 'all' ? ' is-active' : ''?>"
-        data-category="<?=$category_key?>"
-      >
-        <span><?=$category_label?></span>
-        <small><?=$faq_category_counts[$category_key]?></small>
-      </button>
-    <?php } ?>
-  </div>
-</section>
+<?php
+  $faq_category_cards = [
+    'services' => [
+      'title' => 'Services',
+      'icon' => 'fa-cogs',
+      'desc' => 'Quality, safety, refills & how to choose the right service.',
+      'bg' => '#e8f5e9',
+      'color' => '#2e7d32'
+    ],
+    'orders' => [
+      'title' => 'Orders',
+      'icon' => 'fa-shopping-cart',
+      'desc' => 'Placing orders, drip feed, mass order, cancellations & statuses.',
+      'bg' => '#e3f2fd',
+      'color' => '#1565c0'
+    ],
+    'payments' => [
+      'title' => 'Payments',
+      'icon' => 'fa-credit-card',
+      'desc' => 'Payment methods, crypto, refunds & VIP access.',
+      'bg' => '#fff8e1',
+      'color' => '#f57f17'
+    ],
+    'account' => [
+      'title' => 'Account',
+      'icon' => 'fa-user-circle-o',
+      'desc' => 'Security, API keys, 2FA & VIP status.',
+      'bg' => '#e0f2f1',
+      'color' => '#00695c'
+    ],
+    'api' => [
+      'title' => 'Child Panel',
+      'icon' => 'fa-cubes',
+      'desc' => 'Reselling, pricing, domain setup & panel customization.',
+      'bg' => '#e8f5e9',
+      'color' => '#2e7d32'
+    ]
+  ];
+?>
+<div class="sp24-faq-category-cards" id="faqCategoryFilters">
+  <?php foreach ($faq_category_cards as $cat_key => $cat_info) { ?>
+    <div class="sp24-faq-category-card sp24-faq-filter" data-category="<?=$cat_key?>">
+      <div class="sp24-faq-category-card__icon" style="background-color: <?=$cat_info['bg']?>; color: <?=$cat_info['color']?>;">
+        <i class="fa <?=$cat_info['icon']?>"></i>
+      </div>
+      <div class="sp24-faq-category-card__content">
+        <h4><?=$cat_info['title']?></h4>
+        <p><?=$cat_info['desc']?></p>
+      </div>
+      <div class="sp24-faq-category-card__arrow">
+        <i class="fa fa-arrow-right"></i>
+      </div>
+    </div>
+  <?php } ?>
+</div>
 
 <section class="sp24-faq-section">
   <div class="sp24-faq-section__head">
@@ -292,7 +341,7 @@
       if (isOpen) {
         $card.removeClass('is-open');
         $trigger.attr('aria-expanded', 'false');
-        $panel.stop(true, true).slideUp(250);
+        $panel.stop(true, true).slideUp(250); 
       } else {
         $card.addClass('is-open');
         $trigger.attr('aria-expanded', 'true');
@@ -312,4 +361,5 @@
     });
   });
 </script>
+</div>
 

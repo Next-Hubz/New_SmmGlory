@@ -6,7 +6,14 @@
       </div>
       <div class="card-body">
         <p>Submit your details below to request a child panel. Once submitted, our team will review and process your request via the Support Tickets system.</p>
-        <p><strong>Note:</strong> Please make sure your domain nameservers are pointed to ours before submitting.</p>
+        
+        <div class="alert alert-info" role="alert">
+          <p class="mb-2"><strong>Important:</strong> Please update your domain nameservers to ours before submitting this form.</p>
+          <ul class="mb-0">
+            <li><strong>Nameserver 1:</strong> dns1.namecheaphosting.com</li>
+            <li><strong>Nameserver 2:</strong> dns2.namecheaphosting.com</li>
+          </ul>
+        </div>
         <br>
         <form class="form actionForm" action="<?= cn($module . '/submit') ?>" data-redirect="<?= cn('tickets') ?>" method="POST">
           <div class="form-group">

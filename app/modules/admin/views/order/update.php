@@ -40,9 +40,7 @@
       'element'    => form_dropdown('status', $form_status, $item['status'], ['class' => $class_element]),
       'class_main' => "col-md-12 col-sm-12 col-xs-12",
     ];
-  }
-
-
+  }         
   if (!empty($item['id'])) {
     $ids = $item['id'];
     $modal_title = 'Edit Order (' . $item['id'] . ')';

@@ -176,8 +176,8 @@
                 </a>
                 <p>The best SMM Panel in the market. We provide high quality social media services for Resellers and Individuals.</p>
                 <div class="sp24-social-links">
-                    <a href="#"><i class="fa fa-telegram"></i></a>
-                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    <a href="https://t.me/@smmglory24"><i class="fa fa-telegram"></i></a>
+                    <a href="https://wa.me/01838640841"><i class="fa fa-whatsapp"></i></a>
                     <a href="mailto:<?=get_option('email')?>"><i class="fa fa-envelope"></i></a>
                     <a href="<?=cn('auth/login')?>"><i class="fa fa-comments"></i></a>
                 </div>
